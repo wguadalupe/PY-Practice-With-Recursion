@@ -1,1 +1,5 @@
-# Write code for algorithm 1 below
+def print_to_zero(n):
+    if n < 0:
+        return
+    print(n)
+    print_to_zero(n - 1)
